@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Courses.module.scss';
 import CourseItem from './CourseItem/CourseItem';
 
