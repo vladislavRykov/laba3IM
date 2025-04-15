@@ -1,0 +1,20 @@
+.header {
+  background-color: rgb(112, 112, 195);
+  box-shadow: 0px 2px 6px 2px black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  .selected_link {
+    text-decoration: underline;
+  }
+}
